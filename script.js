@@ -140,7 +140,7 @@ function linkClickHandler(e) {
     let offset = document.querySelector(href).offsetTop;
     offset = offset - 70;
  
-  scrollTo({
+  window.scrollTo({
     top: offset,
     behavior: "smooth"
   });
